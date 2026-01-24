@@ -10,13 +10,13 @@ data "aws_vpc" "default" {
 # Security Group
 resource "aws_security_group" "devops_sg" {
   name = "devops_sg"
-   vpc_id = "vpc-02d48e12666c9a429"
+   vpc_id = "vpc-02d48e12666c9a4.."
 
   ingress {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["42.104.220.144/32"]
+    cidr_blocks = ["42.104.0.0/32"]
   }
 
   ingress {
@@ -43,7 +43,7 @@ resource "aws_security_group" "devops_sg" {
 
 # EC2 Instance
 resource "aws_instance" "devops_vm" {
-  ami = "ami-09040d770ffe2224f"
+  ami = "ami-09040d77.....224f"
   instance_type = "t2.micro"
   key_name      = "devops-key"
   vpc_security_group_ids = [aws_security_group.devops_sg.id]
