@@ -198,6 +198,7 @@ successful `psql` query here once you've applied the infrastructure.
 
 ### Docker Compose, Migration, Seed & Indexes
 ![Docker Compose](screenshots/Screenshot (273).png)
+![Docker Compose](screenshots/Screenshot (273).png)
 
 ### Seed Verification & Query Optimization (EXPLAIN ANALYZE)
 ![Seed Verify](screenshots/Screenshot (274).png)
