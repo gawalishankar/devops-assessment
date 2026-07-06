@@ -185,7 +185,7 @@ successful `psql` query here once you've applied the infrastructure.
 ## Screenshots
 
 ### Terraform Init, Format & Validate — Dev
-![Terraform Plan]screenshots/Screenshot(271).png
+![Terraform Plan](<screenshots/Screenshot(271).png>)
 
 ### Terraform Plan — Dev RDS Security Group
 ![Terraform Plan](screenshots/Screenshot(272).png)
