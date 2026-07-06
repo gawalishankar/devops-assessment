@@ -71,7 +71,6 @@ export TF_VAR_db_password="choose-a-strong-password"
 terraform fmt
 terraform validate
 terraform plan
-terraform apply
 ```
 
 Same commands apply under `infra/envs/prod` for the production environment.
