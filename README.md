@@ -207,7 +207,7 @@ successful `psql` query here once you've applied the infrastructure.
 ![Restore](<screenshots/Screenshot (278).png>)
 
 ### GitHub Actions
-![GitHub Actions](screenshots/Github-Actions.png)
+![GitHub Actions](<screenshots/Github-Action.png>)
 
 ## Push to GitHub
 
