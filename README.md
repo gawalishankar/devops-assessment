@@ -182,6 +182,32 @@ secrets: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `TF_VAR_DB_PASSWORD`.
 
 Add screenshots of `terraform plan` output, the running ECS service, and a
 successful `psql` query here once you've applied the infrastructure.
+## Screenshots
+
+### Terraform Init, Format & Validate — Dev
+![Terraform Plan](screenshots/Screenshot (271).png)
+
+### Terraform Plan — Dev RDS Security Group
+![Terraform Plan](screenshots/Screenshot (272).png)
+
+### Terraform Format & Validate — Prod
+![Terraform Plan](screenshots/Screenshot (275).png)
+
+### Terraform Plan — Prod RDS Security Group
+![Terraform Plan](screenshots/Screenshot (276).png)
+
+### Docker Compose, Migration, Seed & Indexes
+![Docker Compose](screenshots/Screenshot (273).png)
+
+### Seed Verification & Query Optimization (EXPLAIN ANALYZE)
+![Seed Verify](screenshots/Screenshot (274).png)
+
+### Backup & Restore
+![Backup](screenshots/Screenshot (277).png)
+![Restore](screenshots/Screenshot (278).png)
+
+### GitHub Actions
+![GitHub Actions](screenshots/github-actions.png)
 
 ## Push to GitHub
 
