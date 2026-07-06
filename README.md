@@ -185,29 +185,29 @@ successful `psql` query here once you've applied the infrastructure.
 ## Screenshots
 
 ### Terraform Init, Format & Validate — Dev
-![Terraform Plan](<screenshots/Screenshot (271).png>)
+![Terraform Plan](<screenshots/terraform-init-fmt-validate-dev.png>)
 
 ### Terraform Plan — Dev RDS Security Group
-![Terraform Plan](<screenshots/Screenshot (272).png>)
+![Terraform Plan](<screenshots/terraform-plan-dev-rds-sg.png>)
 
 ### Terraform Format & Validate — Prod
-![Terraform Plan](<screenshots/Screenshot (275).png>)
+![Terraform Plan](<screenshots/terraform-fmt-validate-prod.png>)
 
 ### Terraform Plan — Prod RDS Security Group
-![Terraform Plan](<screenshots/Screenshot (276).png>)
+![Terraform Plan](<screenshots/terraform-plan-prod-rds-sg.png>)
 
 ### Docker Compose, Migration, Seed & Indexes
-![Docker Compose](<screenshots/Screenshot (273).png>)
+![Docker Compose](<screenshots/docker-compose-migration-seed-indexes.png>)
 
 ### Seed Verification & Query Optimization (EXPLAIN ANALYZE)
-![Seed Verify](<screenshots/Screenshot (274).png>)
+![Seed Verify](<screenshots/seed-verify-explain-analyze.png>)
 
 ### Backup & Restore
 ![Backup](<screenshots/Screenshot (277).png>)
 ![Restore](<screenshots/Screenshot (278).png>)
 
 ### GitHub Actions
-![GitHub Actions](screenshots/github-actions.png)
+![GitHub Actions](screenshots/Github-Actions.png)
 
 ## Push to GitHub
 
